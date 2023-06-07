@@ -1,0 +1,299 @@
+#header{
+  padding: 20px;
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &--nav{
+     & a{
+       font-weight: 700;
+       font-size: 15px;
+       letter-spacing: -0.468947px;
+       color: #19191B;
+       margin: 0 15px;
+       transition: .4s;
+       &:hover {
+         color: #5454D4;
+       }
+     }
+    }
+    & button{
+      padding: 10px 40px;
+      background: #FF7143;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.531474px;
+      color: #FFFFFF;
+      transition: .4s;
+      &:hover{
+        background: white;
+        color: #FF7143;
+        border: 2px solid;
+      }
+    }
+  }
+}
+#hero{
+  padding: 30px;
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--nav{
+      & h1{
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 77px;
+        letter-spacing: -2.50105px;
+        color: #19191B;
+      }
+      & p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.625263px;
+        color: #696871;
+      }
+      &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        & button{
+          background: #5454D4;
+          border-radius: 10px;
+          padding: 10px 15px;
+          font-weight: 700;
+          font-size: 17px;
+          text-align: center;
+          letter-spacing: -0.531474px;
+          color: #FFFFFF;
+          transition: .4s;
+          &:hover{
+            background: #FFFFFF;
+            color: #5454D4;
+            border: 2px solid;
+          }
+        }
+        & a{
+          width: 50px;
+          height: 50px;
+          background: #ffffff;
+          border-radius: 50%;
+        }
+        & a ion-icon{
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+#index{
+  padding: 30px;
+  .index--img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .index{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav {
+      & h1{
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: -1.56316px;
+        color: #19191B;
+      }
+      & p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.625263px;
+        color: #696871;
+      }
+      & h3{
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: -0.531474px;
+        color: #5454D4;
+      }
+      }
+    }
+  }
+#metric{
+  .metric{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  &--title{
+    padding: 40px;
+    &__nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      & h4{
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: -0.750316px;
+        color: #19191B;
+      }
+      & h6{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.500211px;
+        color: #696871;
+      }
+    }
+  }
+    &--nav{
+      & h1{
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: -1.56316px;
+        color: #19191B;
+      }
+      & p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.625263px;
+        color: #696871;
+      }
+      & h3{
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.531474px;
+        color: #5454D4;
+      }
+    }
+  }
+}
+#footer{
+  .footer--title{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & h1{
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 70px;
+      letter-spacing: -1.87579px;
+      color: #19191B;
+    }
+    &__btn{
+      & button{
+        margin: 0 10px;
+        padding: 10px 20px;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: -0.500211px;
+        color: #FFFFFF;
+        background: #5454D4;
+        border-radius: 10px  10px;
+        transition: .4s;
+        &:hover{
+          background: white;
+          color: #5454D4;
+          border: 2px solid;
+        }
+      }
+    }
+  }
+  .footer{
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--block{
+      width: 330px;
+      height: 441px;
+      background: #d0c0c0;
+      border-radius: 10px;
+      transition: .4s;
+      &:hover{
+      background: #9F3919;
+    }
+      & h4{
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: -0.562737px;
+        color: #696871;
+      }
+      & h5 {
+        padding: 5px 0 0 0;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: -0.562737px;
+        color: #696871;
+      }
+      & h2{
+        font-weight: 700;
+        font-size: 60px;
+        text-align: center;
+        letter-spacing: -1.03448px;
+        color: #1D293F;
+      }
+      & button{
+        padding: 10px 15px;
+        text-align: center;
+        background: #FFFFFF;
+        border: 1px solid #EAE9F2;
+        border-radius: 10px;font-weight: 700;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.531474px;
+        color: #5454D4;
+        transition: .4s;
+        &:hover{
+          background: #9F3919;
+          color: #FFFFFF;
+          border: 2px solid;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 451px) {
+
+}
+@media (max-width: 400px) {
+
+}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+
+}
